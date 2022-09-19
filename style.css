@@ -1,0 +1,256 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}  
+  
+  
+.navbar-nav{
+    padding-left: 14.5rem;
+    align-items: center;
+}
+.navbar-nav li{
+    padding-left: 2.5em;
+    font-family:  Gotham Bold,Arial,sans-serif;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.navbar-brand img{
+    height: 1.0em;
+    padding-right: 0.5rem;
+}
+
+.navbar-brand{
+    padding-left: 2.5rem;
+    font-size: 1.6rem;
+}
+.nav-item a{
+    float: left;
+}
+.bg-light {
+    background-color: #ffff!important;
+}
+
+@media only screen and (max-width: 550px) {
+.section h1{
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    /* background: linear-gradient(to bottom, rgb(240, 89, 1) 0%, black 100%); */
+   }
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom, rgb(240, 89, 1) 0%, rgb(20, 19, 19) 100%);
+   }
+
+.section h6{
+
+padding-top: 11.5rem;
+color: white;
+}
+ /* @media only screen and (max-width: 550px) {
+    .head{
+        font-size: 3rem;  
+          padding-left: 7.5rem;  
+        color: white;
+          font-weight: 900;  
+    }
+
+}   */
+.head{
+    
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+/* .section img{
+    float: left;
+    height: 53rem;
+} */
+
+
+.section a{
+   
+    color: white;
+}
+.section a:hover{
+    color: white;
+    text-decoration-line:underline ;
+}
+
+/* second page --- */
+
+.second{
+    background-color: black;
+    width: 100%;
+}
+
+.div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 19, 19);
+    height: 11rem;
+    border-bottom: rgb(205, 204, 204);
+    border-top: rgb(165, 164, 164);
+    border-style: solid;
+    border-width: thin;
+}
+
+
+.box{
+    display: inline-flex;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+     margin: 6px 3px; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-width: 19rem;
+    min-height: 3em;
+  }
+  
+  .button1 {
+    background-color: rgb(20, 19, 19);
+    border: thin solid white;
+  }
+  
+  .button1:hover {
+    background-color: lightgray;
+    color: white;
+  }
+
+  .btmcardsec{
+    background-color: rgb(20, 19, 19);
+    color: #ffff;
+  }
+
+
+  /* cards */
+
+.btmcardsec h1{
+    padding-top: 1em;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-left: 2em;
+}
+.card{
+    border: none;
+    background-color: rgb(20, 19, 19);
+    color: #ffff;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0%;
+}
+
+
+
+/* vedio */
+
+iframe {
+    min-width: 100%;
+    min-height: 40rem;
+}
+
+/* hublot-cele */
+.pt-5 {
+    padding-right: 2rem;
+    padding-top: 3rem!important;
+    padding-left: 2rem;
+}
+
+.button-white {
+    border: none;
+    color: black;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+     margin: 6px 3px; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    max-width: 10rem;
+    min-height: 4em;
+  }
+  
+  .button-w-1 {
+    background-color: white;
+    border: thin solid black;
+  }
+  
+  .button-w-1:hover {
+    background-color: lightgray;
+    color: white;
+  }
+
+  .cele{
+    background-color: blue;
+    padding-left: 6em;
+  }
+  
+  .images{
+    max-width: 100%;
+    max-height: 42rem;
+    margin-left: 0.5em;
+  }
+  .images2{
+    max-width: 100%;
+    min-height: 30rem;
+  }
+
+
+  /* updates */
+
+  .updates{
+    background-color: rgb(27, 22, 22);
+    color: rgb(255, 255, 255);
+    min-height: 21rem;
+    padding-left: 3em;
+    padding-top: 2em;
+    font-size: 1.5em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .footer{
+    background-color: black;
+    color: #ffff;
+    text-decoration: none;
+  }
+
+  .foot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 11rem;
+}
+.ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: small;
+  min-height: 5em;
+  cursor: pointer;
+}
+ 
